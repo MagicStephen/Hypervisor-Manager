@@ -1,0 +1,35 @@
+# MkDocs build
+site/
+app/site/
+
+# Databases
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# SSH
+ssh_host_key
+ssh_host_key.pub
+
+# OS
+.DS_Store
+Thumbs.db
